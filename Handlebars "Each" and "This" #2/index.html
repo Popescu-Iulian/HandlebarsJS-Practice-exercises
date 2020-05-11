@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script id="languagesTemp" type="text/x-handlebars-template">
+    {{#each languages}}
+      <div class="card">
+        <p>I should learn {{this.name}}.</p>
+      </div>
+    {{/each}}
+  </script>
+  <meta charset="utf-8">
+  <title>Hello World!</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script defer src="main.js"></script>
+  <title>Handlebars "Each" & "This"</title>
+</head>
+
+<body>
+  <h1>
+    Thoughts on Languages:
+  </h1>
+  <div id="goals">
+  </div>
+</body>
+
+</html>
